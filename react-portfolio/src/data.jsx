@@ -35,7 +35,7 @@ export const HIGHLIGHTS = [
 
 export const SKILLS = [
   "React", "JavaScript", "PHP", "Laravel", "jQuery", "AJAX",
-  "MySQL", "HTML/CSS", "Python", "Machine Learning",
+  "MySQL", "HTML/CSS", "Python", "Machine Learning", "AI Mastery",
 ];
 
 export const SOFT_SKILLS = [
