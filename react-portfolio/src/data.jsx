@@ -2,6 +2,12 @@ import itayoImage from "./assets/itayo.png";
 import cnnImage from "./assets/cnn-classification.png";
 import laravelImage from "./assets/laravel-app.png";
 import portfolioImage from "./assets/portfolio.png";
+import orgConnectPermitImage from "./assets/orgconnect-permit.png";
+import orgConnectDocumentsImage from "./assets/orgconnect-documents.png";
+import irciteAwardImage from "./assets/ircite-award.jpg";
+import irciteEventImage from "./assets/ircite-event.jpg";
+import libraryTransactionsImage from "./assets/library-transactions.png";
+import libraryDashboardImage from "./assets/library-dashboard.png";
 
 export const NAV_ITEMS = [
   { id: "home", label: "Home" },
@@ -21,7 +27,7 @@ export const PROFILE = {
 };
 
 export const HIGHLIGHTS = [
-  { label: "Projects", value: "4+" },
+  { label: "Projects", value: "7+" },
   { label: "Awards", value: "5" },
   { label: "Experience", value: "3" },
   { label: "School", value: "CLSU" },
@@ -114,6 +120,35 @@ export const PROJECTS = [
     desc: "A CNN-based model for classifying emergency incidents, developed for academic research and defense presentation.",
     tags: ["Research", "CNN", "Python"],
     detail: "This study focuses on building a machine learning workflow for incident classification, using image-based inputs to detect and categorize emergency situations. It demonstrates practical work in model design, evaluation, and presenting technical findings in a research setting.",
+  },
+  {
+    year: "2026",
+    name: "IRCITE AI Video Content Creation",
+    category: "Award",
+    images: [irciteAwardImage, irciteEventImage],
+    desc: "Participated in IRCITE with a partner and won 1st Runner-Up in AI video content creation.",
+    tags: ["IRCITE", "AI Video", "1st Runner-Up"],
+    link: "https://www.facebook.com/share/v/1FuYWSXL5r/",
+    linkLabel: "Watch the AI video",
+    detail: "At the 2026 International Research Conference on Information Technology Education (IRCITE), my partner and I earned 1st Runner-Up in the AI video content creation category.",
+  },
+  {
+    year: "2025",
+    name: "ORGConnect",
+    category: "Web",
+    images: [orgConnectPermitImage, orgConnectDocumentsImage],
+    desc: "A centralized organization management system built with PHP and the Laravel framework.",
+    tags: ["PHP", "Laravel", "Organization Management"],
+    detail: "Developed in 2025, ORGConnect centralizes organization workflows, including activity permit submissions and document management.",
+  },
+  {
+    year: "2025",
+    name: "Library Management System",
+    category: "Web",
+    images: [libraryTransactionsImage, libraryDashboardImage],
+    desc: "Designed and implemented the front end for a library management system.",
+    tags: ["Frontend", "Library System", "UI"],
+    detail: "Created the front-end interface for a library management system, including its dashboard and book transaction views.",
   },
   {
     year: "2025",
